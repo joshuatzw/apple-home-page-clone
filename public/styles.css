@@ -1,0 +1,207 @@
+* {
+  font-family: "Helvetica Neue", "Calibri", sans-serif;
+}
+
+/* NAV-BAR */
+
+#menu-outer {
+  height: 74px;
+  background-color: rgb(61, 61, 61);
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+  padding: auto;  
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+}
+
+ul#horizontal-list a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 30px;
+}
+
+#nav-logo {
+  font-size: 130%;
+  margin: 0 30px;
+}
+
+
+/* HERO IMAGE */
+
+.hero-container img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-container button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight:600;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 60px;
+  padding: 0 20px;
+}
+
+/* IPAD IMAGE */
+.ipad-container {
+  align-items: center;
+  position: relative;
+}
+.ipad-container img {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: auto 550px auto auto;
+
+}
+
+.ipad-text-container {
+  position: absolute;
+  top:10%;
+  left: 36%;
+  /* bottom: 90%; */
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.ipad-text-container h1 {
+  font-size: 400%;
+  padding: 100;
+  margin-top: 30px;
+  display: inline;
+}
+
+.ipad-text-container h4 {
+  font-size: 200%;
+  font-weight: normal;
+  padding: 0;
+  display: inline
+}
+
+ipad-text-container #break-span{
+  display:block;
+  margin: 30px;
+}
+
+.ipad-text-container a {
+  display: inline;
+  padding: 30px;
+  font-size: 150%;
+}
+
+/* IPHONE BANNER */
+
+.iphone-container {
+  background-color: rgb(249, 249, 249);
+  position: relative;
+}
+
+.iphone-container img {
+  margin-top: 200px;
+}
+
+.iphone-text-container {
+  position: absolute;
+  left: 40%;
+}
+
+.iphone-text-container h1 {
+  font-size: 400%;
+  padding: 100;
+  margin-top: 30px;
+  display: inline;
+}
+
+.iphone-text-container h4 {
+  font-size: 200%;
+  font-weight: normal;
+  padding: 0;
+  display: inline
+}
+
+.iphone-text-container #break-span{
+  display:block;
+  margin: 30px;
+}
+
+.iphone-text-container a {
+  display: inline;
+  padding: 30px;
+  font-size: 150%;
+}
+
+
+/* FOOTER */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto;
+  font-size: 15px;
+  background-color: rgb(249, 249, 249);
+  margin-top: 20px;
+  padding: 0 280px;
+}
+
+.footer-container li {
+  list-style: none;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.footer-container a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(38, 38, 38)
+}
+
+.footer-header{
+  font-weight: bold;
+}
+
+.footer-shop-learn-div{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.footer-services-div {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.footer-apple-store-div{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.values-div{
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.business-div{
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
